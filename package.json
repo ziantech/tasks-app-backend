@@ -1,0 +1,15 @@
+{
+  "name": "tasks-app-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "prestart": "npm run build",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
